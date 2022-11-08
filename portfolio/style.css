@@ -1,0 +1,112 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color:gray;
+   width: 400px;
+   height: 100vh;
+   transition:transform 0.3s ease-in ;
+   
+}
+.sidebar ol a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav{
+    padding: 35px;
+    font-size: 20px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main{
+    background-color:rgb(172, 170, 170);
+    width: 90vw;
+    height: 100vh;
+}
+.info{
+    /* background-color: purple; */
+    height: 75vh;
+    width: 65vw;
+    margin: auto;
+    margin: 147px;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.hello{
+    font-size: 45px;
+}
+
+.about{
+    font-size: 35px;
+    font-style: bold;
+}
+
+.about2{
+    font-size: 25px;
+
+}
+.devPic img{
+    height: 75vh;
+  
+}
+.button{
+    margin-top: 34px;
+}
+.button button{
+    padding: 9px;
+    color: white;
+    background-color:dodgerblue;
+    border-radius: 15px;
+    box-shadow: 9px;
+}
+.introduction{
+  justify-content: center;
+}
+
+
+.edu{
+    padding: 50px;
+}
+
+
+table,th,td{
+   padding: 15px;
+    border: 2px solid;
+}
+table{
+    margin-top: 100px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.skillcont{
+    padding: 40px;
+}
+
+.skillhead{
+margin-bottom: 35px;
+}
+
+/* @media (max-width: 1600px){
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+
+    
+} */
